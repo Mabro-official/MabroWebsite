@@ -111,7 +111,9 @@ h1.navbar-brand {
 }
 #memo{
   font-family: "Play", sans-serif;
-  color:  #f7ec59;;
+  background: -webkit-linear-gradient(#f5e941, #f3aa3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #share{
   text-shadow: 2px 2px 5px black;
@@ -185,7 +187,6 @@ overflow: hidden;
   display: flex;
   padding-bottom: 5%;
   align-items: center;
-  height: 50vh;
 }
 
 .privacy hr{
@@ -201,12 +202,16 @@ svg{
 position: absolute;
 z-index: 1;
 }
-
+#follow{
+  background: -webkit-linear-gradient(#f7ec59, #f7b859);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media screen and (max-width: 640px) {
   .main{
     padding-top: 15%;
   }
   svg{
-    height: 70vh;
+    height: 75vh;
   }
 }
