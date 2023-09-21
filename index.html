@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mabro</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <nav class="navbar p-2 navbar-expand-sm fixed-top">
+        
+    <div class="container-fluid">
+        <h1 class="navbar-brand">
+            Mabro
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="togglebtn">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Explore</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <button class="signin mx-2 my-2 py-1 nav-item">Sign in</button>
+    
+            <button class="signup py-1 nav-item">Sign up</button>
+            </ul>
+          </div>
+    </div>
+   
+</nav>
+<section class="main mt-sm-5"> 
+    <!-- Carousel  -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+</div> 
+
+
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="img/pexels-elina-fairytale-4834142.jpg" alt="Los Angeles" class="d-block w-100">
+  </div>
+  <div class="carousel-item">
+    <img src="img/pexels-monstera-production-5384621.jpg" alt="Chicago" class="d-block w-100">
+  </div>
+  <div class="carousel-item">
+    <img src="img/pexels-askar-abayev-5638602.jpg" alt="New York" class="d-block w-100 ">
+  </div>
+</div> 
+ <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+<div class="welcome-text">
+<h1 class="display-1 ">Welcome to <span>Mabro</span></h1>
+<p class="display-4" id="friendship">The Home Of friendship</p>
+</section>
+
+<!-- This is the about section -->
+<!-- <section class="about">
+ <div class="mom-1">
+  <div class="container-fluid">
+  <div class="row justify-content-center text-center ">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h1 class="display-1 text-light mt-lg-5 mt-md-2 lh-1" id="share"><span id="shareText">Share</span> <span id="memo">Memories</span></h1>
+      <p class="display-4 text-light" id="moments">Save little moment <i class="fa-solid fa-camera fa-bounce"></i></p>
+    </div>
+    <div class="col-lg-6 col-md-6 d-xs-none d-md-block">
+<img src="img/pexels-samson-katt-5225115.jpg" alt="" class="w-100">
+
+    </div>
+  </div>
+</div>
+ </div>
+
+ <div class="mom-2">
+  <div class="container-fluid">
+  <div class="row justify-content-center text-center ">
+    <div class="col-lg-6 col-md-6 ">
+      <img src="img/pexels-andrea-piacquadio-3869370.jpg" class="w-100" alt="" id="shine">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+
+<h1 class="display-1 text-light mt-lg-5 mt-md-2 lh-1 " id="share"><span id="shareText">Chat with</span> <span id="memo">Friends</span></h1>
+<p class="display-4 text-light" id="moments">Talk about everything <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+    </div>
+  </div>
+</div>
+ </div>
+
+ <div class="mom-3">
+  <div class="container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h1 class="display-1 text-light mt-lg-5 mt-md-2 lh-1" id="share"><span id="shareText">Have</span> <span id="memo">Fun</span></h1>
+      <p class="display-4 text-light" id="moments">Play online <br>games together <i class="fa-solid fa-gamepad fa-spin-pulse"></i></p>
+            
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="img/pexels-cottonbro-studio-3945657.jpg" class="w-100" alt="" id="shine">
+    </div>
+  </div>
+</div>
+ </div>
+
+ <div class="mom-4">
+  <div class="container-fluid">
+  <div class="row justify-content-center text-center ">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="img/pexels-elina-fairytale-5859798.jpg" class="w-100" alt="" id="shine">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h1 class="display-1 text-light  mt-lg-5 mt-md-2 lh-1 " id="share"><span id="shareText">Keep in</span> <span id="memo">Touch</span></h1>
+      <p class="display-4 text-light" id="moments">Bridge the distance <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+    </div>
+  </div>
+</div>
+ </div>
+</section> -->
+
+
+<!-- <section class="about">
+ <div class="m-one">
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center px-5 text-center ">
+    <h1 class="display-1 text-light mt-lg-5 mt-md-2 text-sm-center text-md-start lh-1" id="share"><span id="shareText">Share</span> <span id="memo">Memories</span></h1>
+    <p class="display-4 text-light" id="moments">Save little moment <i class="fa-solid fa-camera fa-bounce"></i></p>
+  
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <img src="img/pexels-samson-katt-5225115.jpg" class="w-100" alt="" id="shine">
+  </div>
+</div>
+</div>
+  </div>
+   <div class="absolute">
+  <div class="m-two">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-lg-6 col-md-6 col-sm-12 h-100 ">
+          <img src="img/pexels-andrea-piacquadio-3869370.jpg" class="w-100" alt="" id="shine" >
+        
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center px-5 text-center align-self-center pb-lg-5 pd-md-5 pd-sm-1 " >
+          <div class="display-text align-items-end h-100" id="upText">
+          <h1 class="display-1 text-light " id="share"><span id="shareText">Chat with</span> <span id="memo">Friends</span></h1>
+          <p class="display-4 text-light" id="moments">Talk about everything <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+        </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    
+    <div class="absolute">
+      <div class="m-three">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center px-5 text-center ">
+              <h1 class="display-1 text-light mt-lg-5 mt-md-2 text-sm-center text-md-start lh-1" id="share"><span id="shareText">Have</span> <span id="memo">Fun</span></h1>
+              <p class="display-4 text-light text-lg-start" id="moments">Play online <br>games together <i class="fa-solid fa-gamepad fa-spin-pulse"></i></p>
+            
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="img/pexels-cottonbro-studio-3945657.jpg" class="w-100" alt="" id="shine">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+<div class="absolute">
+  <div class="m-four">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <img src="img/pexels-elina-fairytale-5859798.jpg" class="w-100" alt="" id="shine">
+        
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center px-5 text-center align-self-end pb-lg-5 pd-md-3 pd-sm-1">
+          <div class="display-text align-items-end">
+          <h1 class="display-1 text-light " id="share"><span id="shareText">Keep in</span> <span id="memo">Touch</span></h1>
+          <p class="display-4 text-light" id="moments">Bridge the distance <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div> 
+    </div>
+      </section > -->
+      <section class="about">
+<div class="container-fluid" id="first">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h1 class="display-1 text-light mt-lg-5 mt-md-2 text-sm-center text-md-start lh-1" id="share"><span id="shareText">Share</span> <span id="memo">Memories</span></h1>
+      <p class="display-4 text-light text-center" id="moments">Save little moment <i class="fa-solid fa-camera fa-bounce"></i></p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="img/pexels-samson-katt-5225115.jpg" class="w-100" alt="" id="shine">
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="second">
+    <div class="col-lg-6 col-md-6 col-sm-12 text-center pt-lg-5 pt-md-3 pt-sm-1">
+      <h1 class="display-1 text-light " id="share"><span id="shareText">Chat with</span> <span id="memo">Friends</span></h1>
+      <p class="display-4 text-light" id="moments">Talk about everything <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+    
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="img/pexels-andrea-piacquadio-3869370.jpg" class="w-100" alt="" id="shine" >
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row " id="thridd">
+    <div class="col-lg-6 col-md-6 col-sm-12 text-center pt-lg-5 pt-md-3 pt-sm-1">
+      <h1 class="display-1 text-light lh-1" id="share"><span id="shareText">Have</span> <span id="memo">Fun</span></h1>
+      <p class="display-4 text-light" id="moments">Play online <br>games together <i class="fa-solid fa-gamepad fa-spin-pulse"></i></p>
+    
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+   
+        <img src="img/pexels-cottonbro-studio-3945657.jpg" class="w-100" alt="" id="shine">
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row" id="fourth">
+    <div class="col-lg-6 col-md-6 col-sm-12 text-center pt-lg-5 pt-md-3 pt-sm-1">
+     
+        <h1 class="display-1 text-light " id="share"><span id="shareText">Keep in</span> <span id="memo">Touch</span></h1>
+        <p class="display-4 text-light" id="moments">Bridge the distance <i class="fa-regular fa-comment fa-shake" style="color: #ffffff;"></i></p>
+    
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+
+        <img src="img/pexels-elina-fairytale-5859798.jpg" class="w-100" alt="" id="shine">
+
+  </div>
+</div>
+
+      </section>
+<section class="createAccount">
+<div class="create">
+  <h1 class="display-1">Create an Account now <i>i</i></h1>
+  <button>Sign Up</button>
+</div>
+</section>
+<footer>
+  <svg viewBox="0 0 500 200">
+    <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0" fill=""></path>
+  </svg>
+  <div class="container-fluid" id="footer-terms">
+    <div class="row text-center align-items-center">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="footer-text">
+        <h1 class="display-3">Mabro</h1>
+        <p>Copyright&copy; Mabro.inc</p>
+      </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="privacy">
+          <a href="" class=" nav-link link-light">Privacy policy</a>
+          <hr>
+          <a href="" class=" nav-link link-light">Contact Us</a>
+          <hr>
+          <a href="" class="nav-link link-light">About us</a>
+         </div>
+      </div>
+    </div>
+  </div>
+
+      
+</footer> 
+
+    <script src="js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>

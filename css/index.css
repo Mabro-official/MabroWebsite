@@ -1,0 +1,294 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #c7974b9d !important;
+
+}
+.navbar {
+  background-color: #f7ec59;
+}
+.nav li a {
+  color: black;
+}
+.signin {
+  background: white;
+  transition: background-color 0.5s ease;
+  border: none;
+  font-weight: bold;
+  font-family: "Play", sans-serif;
+}
+.signin:hover {
+    background-color: #131200;
+    color: white;
+
+  }
+.signup {
+  background:  #8b6220;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.5s ease;
+  font-family: "Play", sans-serif;
+}
+.signup:hover{
+    background: #553400;
+}
+
+h1.navbar-brand {
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+}
+#togglebtn {
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+#togglebtn:focus {
+  box-shadow: 0 0 5px #8b6220;
+  
+} 
+ .main{
+    position: relative;
+ 
+} 
+ .welcome-text{
+    position: absolute;
+    top: 50%;
+  
+    color: white;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ width: 80%;
+
+
+
+}
+.welcome-text h1{
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 0 50px 0 0;
+}
+.welcome-text h1 span{
+    font-family: "Play", sans-serif ;
+}
+.welcome-text p{
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(77, 59, 26, 0.623);
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+#friendship{
+  border-radius: 0 0 0 50px;
+}
+#newsign{
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+.about{
+  background-image: url(../img/pexels-pixabay-235985.jpg) ;
+  padding-bottom: 5%;
+}
+/* .mom-1{
+  position: relative;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+
+}
+.mom-2{
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+}
+
+.mom-3{
+  position: relative;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+}
+
+.mom-4{
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+} */
+
+/* .about{
+  background: #8b6220a8 url(../img/pexels-pixabay-235985.jpg)  ;
+  position: relative;
+  height:218vh;
+}
+
+.m-one{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  height: 60vh;
+}
+.m-three{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  height: 60vh;
+}
+#shine{
+  box-shadow: 0px 0px 10px black;
+
+}
+#memo{
+  font-family: "Play", sans-serif;
+  color:  #f7ec59;;
+}
+#share{
+  text-shadow: 2px 2px 5px black;
+
+}
+#shareText{
+  -webkit-text-stroke: 1px ;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+}
+
+#moments{
+  font-family: 'Dancing Script', cursive;
+  transform: skewY(5deg);
+  margin-top: 2%;
+}
+ .m-two{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  position: absolute;
+  height: 60vh;
+  top: -20%;
+
+
+} 
+#upText{
+height: 100%;
+}
+.m-four{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  position: absolute;
+  top: -6%;
+
+} 
+
+
+.absolute{
+  position: relative;
+height: 55vh;
+} */
+#first{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+}
+#moments{
+  font-family: 'Dancing Script', cursive;
+  transform: skewY(5deg);
+  margin-top: 2%;
+}
+#shine{
+  box-shadow: 0px 0px 10px black;
+
+}
+#memo{
+  font-family: "Play", sans-serif;
+  color:  #f7ec59;;
+}
+#share{
+  text-shadow: 2px 2px 5px black;
+
+}
+#shareText{
+  -webkit-text-stroke: 1px ;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+}
+#second{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  transform: rotateY(-10deg);
+}
+#thridd{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  transform: rotateY(-20deg);
+}
+#fourth{
+  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  transform: rotateY(30deg);
+}
+.createAccount{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-image: linear-gradient(to bottom, #e9bb7162,rgba(39, 29, 0, 0.452));
+
+}
+.create{
+  padding: 5%;
+ margin-top: 5%;
+}
+.create button{
+  width: 30%;
+  height: 50px;
+  background-color: rgb(0, 102, 0);
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 3%;
+}
+.create button:hover{
+  background-color: rgb(1, 161, 1);
+}
+.create h1 i{
+  font-family: "Play", sans-serif;
+  color:  #f7ec59;
+}
+footer{
+background-image: radial-gradient( #f7ec59, #f7b859);
+  width: 100%;
+position: relative;
+height: 60vh;
+overflow: hidden;
+
+}
+.footer-text{
+  color: white;
+  font-family: "Play", sans-serif;
+}
+.privacy{
+  justify-content: center;
+  display: flex;
+  padding-bottom: 5%;
+  align-items: center;
+  height: 50vh;
+}
+
+.privacy hr{
+  transform: rotate(90deg);
+  width: 3%;
+  color: white;
+}
+svg{
+  position: absolute;
+  height: 80vh;
+}
+#footer-terms{
+position: absolute;
+z-index: 1;
+}
