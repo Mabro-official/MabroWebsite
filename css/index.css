@@ -6,7 +6,7 @@ body{
 
 }
 .navbar {
-  background-color: #f7ec59;
+  background-image: radial-gradient( #f7ec59, #f7b859);
 }
 .nav li a {
   color: black;
@@ -93,104 +93,12 @@ h1.navbar-brand {
   background-image: url(../img/pexels-pixabay-235985.jpg) ;
   padding-bottom: 5%;
 }
-/* .mom-1{
-  position: relative;
-  background-color: black;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
 
-}
-.mom-2{
-  background-color: black;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-}
-
-.mom-3{
-  position: relative;
-  background-color: black;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-}
-
-.mom-4{
-  background-color: black;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-} */
-
-/* .about{
-  background: #8b6220a8 url(../img/pexels-pixabay-235985.jpg)  ;
-  position: relative;
-  height:218vh;
-}
-
-.m-one{
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-  width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
-  height: 60vh;
-}
-.m-three{
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-  width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
-  height: 60vh;
-}
-#shine{
-  box-shadow: 0px 0px 10px black;
-
-}
-#memo{
-  font-family: "Play", sans-serif;
-  color:  #f7ec59;;
-}
-#share{
-  text-shadow: 2px 2px 5px black;
-
-}
-#shareText{
-  -webkit-text-stroke: 1px ;
-  -webkit-text-stroke-color: white;
-  color: transparent;
-}
-
-#moments{
-  font-family: 'Dancing Script', cursive;
-  transform: skewY(5deg);
-  margin-top: 2%;
-}
- .m-two{
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-  width: 100%;
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
-  position: absolute;
-  height: 60vh;
-  top: -20%;
-
-
-} 
-#upText{
-height: 100%;
-}
-.m-four{
-  background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
-  width: 100%;
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
-  position: absolute;
-  top: -6%;
-
-} 
-
-
-.absolute{
-  position: relative;
-height: 55vh;
-} */
 #first{
   background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  box-shadow: 5px 5px 10px black;
 }
 #moments{
   font-family: 'Dancing Script', cursive;
@@ -219,6 +127,7 @@ height: 55vh;
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
   transform: rotateY(-10deg);
+  box-shadow: 0px 0px 10px black;
 }
 #thridd{
   background: linear-gradient(to bottom left,rgb(165, 128, 49),rgb(92, 77, 45),rgb(65, 54, 32));
@@ -291,4 +200,13 @@ svg{
 #footer-terms{
 position: absolute;
 z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .main{
+    padding-top: 15%;
+  }
+  svg{
+    height: 70vh;
+  }
 }
