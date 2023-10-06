@@ -150,6 +150,10 @@ h1.navbar-brand {
   background-image: linear-gradient(to bottom, #e9bb7162,rgba(39, 29, 0, 0.452));
 
 }
+.signup a{
+  color: white;
+  text-decoration: none;
+}
 .create{
   padding: 5%;
  margin-top: 5%;
@@ -207,9 +211,9 @@ z-index: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 570px) {
   .main{
-    padding-top: 15%;
+    padding-top: 10%;
   }
   svg{
     height: 75vh;
